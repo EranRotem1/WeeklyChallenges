@@ -39,7 +39,7 @@ namespace ChallengesWithTestsMark8
         public string GetGreeting(string nameOfPerson)
         {
 
-            return (nameOfPerson.Length > 0) ? $"Hello, {nameOfPerson}!" : "Hello!!";
+            return (nameOfPerson.Length > 0) ? $"Hello, {nameOfPerson}!" : "Hello!";
         }
 
         public string GetHey()
